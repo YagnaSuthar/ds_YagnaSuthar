@@ -39,20 +39,27 @@ This project analyzes the relationship between **trader behavior** and **Bitcoin
 
 ## Project Structure
 
-ds_<candidate_name>/
-├── notebook_1.ipynb                # Data loading, cleaning, preprocessing, merging datasets
-├── notebook_2.ipynb                # Visualizations, EDA, and insights
-├── csv_files/
-│   └── final_df.csv                # Cleaned and merged dataset
+ds_YagnaSuthar/
+│
+├── notebooks/
+│   ├── notebook_1.ipynb        # Data loading, cleaning, preprocessing
+│   └── notebook_2.ipynb        # EDA, visualizations, insights
+│
+├── data/
+│   └── final_df.csv            # Cleaned and merged dataset
+│
 ├── outputs/
-│   ├── Trader_Profitability_by_Market_Sentiment.png
-│   ├── Trade_Volume_by_Market_Sentiment.png
-│   ├── Trading_Fee_by_Market_Sentiment.png
-│   ├── Correlation_Between_Trade_Features.png
-│   ├── scatterplot.png
-│   └── Proportion_of_Profitable.png
-├── ds_report.pdf                    # Complete analysis report
-└── README.md                        # Project description and instructions
+│   ├── profitability_by_sentiment.png
+│   ├── trade_volume_by_sentiment.png
+│   ├── trading_fee_by_sentiment.png
+│   ├── correlation_heatmap.png
+│   ├── size_vs_pnl_scatter.png
+│   └── profitable_trade_ratio.png
+│
+├── report/
+│   └── ds_report.pdf           # Complete analysis report
+│
+└── README.md                   # Project overview & instructions
 
 
 ---
